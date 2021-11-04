@@ -5,13 +5,13 @@
 
 #include<stdio.h>
 
-int function(){
+int function(){ //Função que imprima a seguite mensagem
 	printf("**********************\n*    Parabens para voce  *\n**********************");
 	
 }
 int main ()
 {
-	function();
+	function(); //chamada da função que imprima a seguite mensagem
 return 0;
 }
 
